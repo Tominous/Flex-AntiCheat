@@ -6,13 +6,13 @@
 # |   █    █▄▄█ █▄▄▄ ▄▀ ▀▄    █  █ █  ▀█   █   ▄█▄ █▄▄█ █  █ █▄▄▄ █  █   █     | #
 # |                                                                            | #
 # |                                                                            | #
-# |   Plugin Info:                                                             | #
+# |   Plugin Information:                                                      | #
 # |   AntiCheat: AAC                                                           | #
 # |   Version: 3.6.4                                                           | #
 # |   Developer: konsolas.58100                                                | #
 # |   Spigot Page: https://bit.ly/FlexAACSpigot                                | #
 # |                                                                            | #
-# |   Config Info:                                                             | #
+# |   Config Information:                                                      | #
 # |   Configurator: ItsMennyo.305436                                           | #
 # |   Build: BUILD 3.0.386 BETA                                                | #
 # |   Configuration ID: sFovMW53pD14MCodAyV1                                   | #
@@ -162,7 +162,7 @@ fightspeed:
     12:
       - "conditionalcommands:cc {player} if -ping->1000&-tps->19.0&-time_online->5000&-uptime->200 do aackick {player} Internet/Server Issues?"
       #Temporarily disabled because the KillauraEntity check is currently experimental!
-      #- "aacadditionpro entitycheck {player} 1200"
+      - "aacadditionpro entitycheck {player} 1200"
     17: "conditionalcommands:cc {player} if -ping-<50&-tps->19.8 do aackick {player} FightSpeed"
     21: "conditionalcommands:cc {player} if -ping-<100&-tps->19.5 do aackick {player} FightSpeed"
     25: "aackick {player} FightSpeed"
