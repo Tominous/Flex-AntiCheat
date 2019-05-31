@@ -34,7 +34,7 @@ Punishments:
   max_wave_size: 100
 Logs:
   log_console: true
-  log_mysql: false
+  log_mysql: true
   log_file: true
   log_file_limit: 5000
 Notifications:
@@ -42,7 +42,7 @@ Notifications:
   verbose_notifications: true
   enable_verbose_notifications_on_login: true
   output_silent_check_verbose: true
-  enable_mining_notifications_on_login: false
+  enable_mining_notifications_on_login: true
   violations_reset_message: false
   staff_chat: true
   enable_verbose_on_login: false
@@ -65,7 +65,7 @@ Important:
   enable_permissions: true
   check_server_compatibility_on_load: true
   vl_reset_time: 60
-  developer_api_events: false
+  developer_api_events: true
 Detections:
   allow_cancelled_hit_checking: false
   update_blocks_upon_teleport: false
